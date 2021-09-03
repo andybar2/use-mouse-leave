@@ -7,7 +7,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc && terser --compress --mangle -- dist/index.js > dist/index.min.js",
-    "prepare": "tsc --noEmit && lint-staged && npm run build",
+    "prepare": "tsc --noEmit && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
